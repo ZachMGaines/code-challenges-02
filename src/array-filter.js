@@ -4,3 +4,7 @@ export function evensOnly(arr) {
   });
 }
 
+export function fiveOrFewer(arr) {
+  return arr.filter(item => item.length <= 5);
+};
+
